@@ -1,0 +1,22 @@
+site_name: HORDA cluster
+site_author: Paweł Rubach Maciej Sikora
+repo_url: https://github.com/ilbsm/horda
+docs_dir: docs
+theme:
+  name: material
+  logo: "img/logo.png"
+  favicon: "img/favicon.ico"
+markdown_extensions:
+  - admonition:
+  - pymdownx.inlinehilite:
+  - pymdownx.superfences:
+nav:
+    - Home: index.md
+    - Getting started: first_steps.md
+    - Running calculations: running_jobs.md
+    - FAQ: faq.md
+    - Available resources: resources.md
+    - Available software: software.md
+    - General rules: rules.md
+extra_css:
+  - stylesheets/extra.css
