@@ -1,4 +1,4 @@
-# edi documentation
+# HORDA documentation
 
 ## Guide
 
