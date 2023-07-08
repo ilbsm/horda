@@ -327,7 +327,8 @@
                 
                   <h1>Available resources</h1>
                 
-                <p>The HORDA cluster has in total 92 physical CPUs (184 virtual), 16 GPUs, 576 GB of RAM and around 140 TB of storage.</p>
+                <p>The HORDA cluster has in total 228 physical CPUs (348 virtual), 22 GPUs, 736 GB of RAM and around 45 TB of shared  storage space.</p>
+<p>All Nodes including the Front Node (horda) run Ubuntu 22.04.2 LTS Linux</p>
 <p>Characteristcs of available compute nodes are summarized below:</p>
 <table>
 <thead>
@@ -361,13 +362,148 @@
 <td>-</td>
 </tr>
 <tr>
-<td>troll-1</td>
-<td>16</td>
-<td>2x Intel(R) Xeon(R) CPU E5-2667 v2 @ 3.30GHz</td>
-<td>32GB</td>
-<td>~ 800 GB, sata</td>
-<td>2x GeForce GTX 780 Ti</td>
+<td>ogr-2</td>
+<td>32</td>
+<td>2x Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz</td>
+<td>64GB</td>
+<td>~ 180 GB, ssd</td>
 <td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>ogr-3</td>
+<td>32</td>
+<td>2x Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz</td>
+<td>64GB</td>
+<td>~ 180 GB, ssd</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>ogr-5</td>
+<td>28</td>
+<td>2x Intel(R) Xeon(R) CPU E5-2660 v4 @ 2.00GHz</td>
+<td>64GB</td>
+<td>~ 400 GB, ssd</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>ogr-6</td>
+<td>28</td>
+<td>2x Intel(R) Xeon(R) CPU E5-2660 v4 @ 2.00GHz</td>
+<td>64GB</td>
+<td>~ 200 GB, ssd</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>troll-4</td>
+<td>32</td>
+<td>2x Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz</td>
+<td>32GB</td>
+<td>~ 180 GB, ssd</td>
+<td>2xGeForce GTX 1080</td>
+<td>-</td>
+</tr>
+<tr>
+<td>troll-5</td>
+<td>32</td>
+<td>2x Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz</td>
+<td>64GB</td>
+<td>~ 180 GB, ssd</td>
+<td>2xGeForce GTX 1080</td>
+<td>-</td>
+</tr>
+<tr>
+<td>troll-6</td>
+<td>32</td>
+<td>2x Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz</td>
+<td>64GB</td>
+<td>~ 180 GB, ssd</td>
+<td>2xGeForce GTX 1080</td>
+<td>-</td>
+</tr>
+<tr>
+<td>troll-7</td>
+<td>32</td>
+<td>2x Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz</td>
+<td>64GB</td>
+<td>~ 180 GB, ssd</td>
+<td>2xGeForce GTX 1080</td>
+<td>-</td>
+</tr>
+<tr>
+<td>troll-8</td>
+<td>6</td>
+<td>1x Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz</td>
+<td>16GB</td>
+<td>~ 400 GB, m.2</td>
+<td>1xGeForce RTX 2080 Ti</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>troll-9</td>
+<td>6</td>
+<td>1x Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz</td>
+<td>16GB</td>
+<td>~ 400 GB, m.2</td>
+<td>1xGeForce RTX 2080 Ti</td>
+<td>2020</td>
+</tr>
+<tr>
+<td>troll-10</td>
+<td>12</td>
+<td>1x Intel(R) Xeon(R) W-2265 CPU @ 3.50GHz</td>
+<td>16GB</td>
+<td>~ 400 GB, m.2</td>
+<td>1xGeForce RTX 3080 1xGeForce RTX 3070</td>
+<td>2021</td>
+</tr>
+<tr>
+<td>troll-11</td>
+<td>12</td>
+<td>1x Intel(R) Xeon(R) W-2265 CPU @ 3.50GHz</td>
+<td>16GB</td>
+<td>~ 400 GB, m.2</td>
+<td>2xGeForce RTX 3080</td>
+<td>2021</td>
+</tr>
+<tr>
+<td>troll-12</td>
+<td>12</td>
+<td>1x Intel(R) Xeon(R) W-2265 CPU @ 3.50GHz</td>
+<td>16GB</td>
+<td>~ 400 GB, m.2</td>
+<td>2xGeForce RTX 3080</td>
+<td>2021</td>
+</tr>
+<tr>
+<td>troll-13</td>
+<td>12</td>
+<td>1x Intel(R) Xeon(R) W-2265 CPU @ 3.50GHz</td>
+<td>16GB</td>
+<td>~ 400 GB, m.2</td>
+<td>2xGeForce RTX 3080</td>
+<td>2021</td>
+</tr>
+<tr>
+<td>troll-14</td>
+<td>12</td>
+<td>1x Intel(R) Xeon(R) W-2265 CPU @ 3.50GHz</td>
+<td>16GB</td>
+<td>~ 400 GB, m.2</td>
+<td>2xGeForce RTX 3080</td>
+<td>2021</td>
+</tr>
+<tr>
+<td>troll-15</td>
+<td>8</td>
+<td>1x Intel(R) Core(TM) i7-11700K @ 3.60GHz</td>
+<td>32GB</td>
+<td>~ 3400 GB, m.2</td>
+<td>2xGeForce RTX 3080 Ti</td>
+<td>2023</td>
 </tr>
 </tbody>
 </table>

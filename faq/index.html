@@ -423,15 +423,15 @@
                   <h1>FAQ</h1>
                 
                 <h3 id="how-to-run-jupyter-notebooks-remotely-on-horda"><strong>How to run Jupyter notebooks remotely on HORDA?</strong></h3>
-<p>Assuming <code>jupyter</code> is running on <code>troll-1</code> (port <code>8888</code>) 
+<p>Assuming <code>jupyter</code> is running on <code>troll-4</code> (port <code>8888</code>) 
 and that the connection is established with <code>sshuttle</code> (see <a href="../first_steps/#connecting-via-ssh"><strong>Getting started</strong></a>
 section for more details) it is possible setup the tunnel as follows:
-<div class="highlight"><pre><span></span><code>ssh -NL <span class="m">8888</span>:localhost:8888 your_username@troll-1.sih-60.internal
+<div class="highlight"><pre><span></span><code>ssh -NL <span class="m">8888</span>:localhost:8888 your_username@troll-4.sih-60.internal
 </code></pre></div></p>
 <p>Afterwards you should be able to see the running Jupyter instance via browser at the URL:
 <code>http://localhost:8888</code></p>
 <h3 id="how-to-install-python-packages-on-horda"><strong>How to install python packages on HORDA?</strong></h3>
-<p><code>python3</code> (3.10 and 3.11) as well as  <code>python2</code> (2.7.18) along with the recent <code>pip</code> 
+<p><code>python3</code> (3.9, 3.10 and 3.11) as well as  <code>python2</code> (2.7.18) along with the recent <code>pip</code> 
 and <code>venv</code> are installed system-wide on each node of HORDA.</p>
 <p>You can simply install packages either with <code>pip install --user</code> or use <code>venv</code> or <code>svirtualenv</code>
 (this will allow to handle multiple projects with possibly conflicting dependencies).</p>
