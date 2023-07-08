@@ -1,17 +1,17 @@
 ### **How to run Jupyter notebooks remotely on HORDA?**
 
-Assuming <code>jupyter</code> is running on <code>troll-1</code> (port <code>8888</code>) 
+Assuming <code>jupyter</code> is running on <code>troll-4</code> (port <code>8888</code>) 
 and that the connection is established with <code>sshuttle</code> (see [**Getting started**](first_steps.md#connecting-via-ssh)
 section for more details) it is possible setup the tunnel as follows:
 ```sh
-ssh -NL 8888:localhost:8888 your_username@troll-1.sih-60.internal
+ssh -NL 8888:localhost:8888 your_username@troll-4.sih-60.internal
 ```
 
 Afterwards you should be able to see the running Jupyter instance via browser at the URL:
 <code>http://localhost:8888</code>
 
 ### **How to install python packages on HORDA?**
-<code>python3</code> (3.10 and 3.11) as well as  <code>python2</code> (2.7.18) along with the recent <code>pip</code> 
+<code>python3</code> (3.9, 3.10 and 3.11) as well as  <code>python2</code> (2.7.18) along with the recent <code>pip</code> 
 and <code>venv</code> are installed system-wide on each node of HORDA.
 
 You can simply install packages either with <code>pip install --user</code> or use <code>venv</code> or <code>svirtualenv</code>

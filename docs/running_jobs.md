@@ -39,7 +39,7 @@ Both commands have a similar set of options:
 | **-n**     | Number of cores used allocated for the job (_default = 1, max = 36_)                             |
 | **--gres** | Number of GPUs allocated for the job (_default = None, --gres=gpu, --gres=gpu:2)                 |
 | **--mem**  | Amount of memory (in GBs) **per allocated core** allocated for the job (_default = 1, max = 60_) |
-| **-w**     | Specifi host or hosts to get your resources (i.e. troll-1)                                       |
+| **-w**     | Specify host or hosts to get your resources (i.e. troll-1)                                       |
 
 !!! Example
     To login interactively to **troll-1** with **2 gpus** and **8 cores** and a total of **12 GB of memory**:
