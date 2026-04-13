@@ -22,7 +22,7 @@ further - [LINK](rules.md) **
 ### **Connecting via SSH**
 Connections to the HORDA cluster are handled via SSH protocol. See the figure below
 for a brief introduction of the network organization:
-![Screenshot](img/horda_scheme.png)
+![Screenshot](img/horda_scheme_all.png)
 
 In order to login to the entry node you can issue the following command:
 
