@@ -6,6 +6,7 @@
 
 - Install poetry,
 - run `poetry install` in the repo directory.
+- run `pip install mkdocs-material mkdocs`
 
 ### To preview the webpage after editing:
 
