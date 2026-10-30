@@ -19,8 +19,7 @@ Characteristcs of available compute nodes are summarized below:
 | troll-6	  | 32	     |2x Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz	| 56GB	 |~ 180 GB, ssd	| 2xGeForce GTX 1080	                     |-	|-	|
 | troll-7	  | 32	     |2x Intel(R) Xeon(R) CPU E5-2683 v4 @ 2.10GHz	| 32GB	 |~ 180 GB, ssd	| 2xGeForce GTX 1080	                     |-	|-	|
 | troll-8	  | 6	      |1x Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz	| 16GB	 |~ 400 GB, m.2	| 1xGeForce RTX 2080 Ti	                  |2020	|-	|
-| troll-9	  | 6	      |1x Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz	| 16GB	 |~ 400 GB, m.2	| 1xGeForce RTX 2080 Ti	1xGeForce RTX 3080 |2020	|-	|
-| troll-10	 | 12	     |1x Intel(R) Xeon(R) W-2265 CPU @ 3.50GHz	| 64GB	 |~ 400 GB, m.2	| 1xGeForce RTX 3080 1xGeForce RTX 3070 	 |2021	|-	|
+| troll-9	  | 6	      |1x Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz	| 16GB	 |~ 400 GB, m.2	| 1xGeForce RTX 2080 Ti	1xGeForce RTX 3080 |2020	|
 | troll-11	 | 12	     |1x Intel(R) Xeon(R) W-2265 CPU @ 3.50GHz	| 48GB	 |~ 400 GB, m.2	| 2xGeForce RTX 3080 	                    |2021	|-	|
 | troll-12	 | 12	     |1x Intel(R) Xeon(R) W-2265 CPU @ 3.50GHz	| 48GB	 |~ 400 GB, m.2	| 2xGeForce RTX 3080 	                    |2021	|-	|
 | troll-13	 | 12	     |1x Intel(R) Xeon(R) W-2265 CPU @ 3.50GHz	| 64GB	 |~ 400 GB, m.2	| 2xGeForce RTX 3080                      |2021	|-	|
